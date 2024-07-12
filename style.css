@@ -1,0 +1,99 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+body {
+    background-image: radial-gradient(circle at 50% , #a3a7ff 0, #7a8ffc 25%, #3c78f2 50%, #0063e8 75%, #0051de 100%);
+}
+
+.jogoAdivinha {
+    background-image: radial-gradient(circle at 119.91% 50%, #3c78f2 0, #3c78f2 50%, #3c78f2 100%);    
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 600px;
+    color: aliceblue;
+    align-items: center;
+}
+
+.elementos {
+    text-align: center;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#quantTentativas{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 10px;
+}
+
+#tituloJogo {
+    margin-top: 10%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.0em;
+    margin-bottom:5px;
+    color: #f2f23c;
+    text-shadow: 2px 2px rgba(58, 8, 238, 0.1);
+}
+
+#subtituloJogo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -8px; 
+    font-size: 1.5em;
+}
+
+#respostaUsuario {
+    border: none;
+    height: 100px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+    background-color: #2769ee;
+    text-align: center;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -10px;
+    opacity: 0.5;
+}
+
+#butaoEnvio {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5em;
+    background-color: #f2f23c;
+    border: none;
+    border-radius: 5px;
+    color: #2769ee;
+    cursor: pointer;
+}
+
+#butaoEnvio:hover {
+    background-color: rgba(226, 226, 217, 0.473);
+}
+
+.resultadoJogo {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+#retornoUsuario2 {
+    margin-top: -15px;
+
+}

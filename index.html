@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o numero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="numero"></h1>
+    <div class="jogoAdivinha">
+        <h4 id="retornoUsuario" class="resultadoJogo" >Resposta Incorreta! Tente novamente. 😣</h4>
+        <h4 id="retornoUsuario2" class="resultadoJogo">Voce chutou baixo</h4>
+        <h1 id="tituloJogo">Qual é o numero?</h1>
+        <h3 id="subtituloJogo">Adivinhe um numero entre 1 e 100 🎲</h3>
+        <div class="elementos">
+            <input type="number" id="respostaUsuario" placeholder="0"><br><br>
+            <button id="butaoEnvio">Enviar Resposta</button>
+            <h3 id="quantTentativas">Quantidade de tentativas: 0</h3>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
